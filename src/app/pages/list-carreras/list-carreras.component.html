@@ -1,0 +1,12 @@
+<p>list-carreras works!</p>
+
+<span *ngIf="listadoCarrera.length==0" >
+</span>
+
+<ul>
+    <li *ngFor="let carrera of listadoCarrera">
+        
+        <a>{{carrera.nombre}} | {{carrera.descripcion}} </a>
+        
+    </li>
+</ul>
